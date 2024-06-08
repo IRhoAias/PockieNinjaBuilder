@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{902C1B87-AF93-47AA-B1D6-AE9EB12F8D87}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>4</LangVersion>
+    <AssemblyName>PockieNinjaBuilder</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationIcon Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Agility.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\ArmorBreak.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Block.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Chakra.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Constitution.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Counterattack.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Critical.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Defense.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\DmgReduction.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Dodge.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EArmorBreak.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Earth.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EBlock.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EConstitution.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\ECritical.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EDefense.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EDodge.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EHit.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\EPierce.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Fire.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\FiveElement.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Healing.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Hit.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\HP.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\HPAbsorb.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Illusion.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Lightning.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\MaxAtk.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\MinAtk.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\PAtk.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\PChakra.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\PHP.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Pierce.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Sealing.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Speed.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Stamina.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Strength.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Taijutsu.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Tool.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Values.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Water.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Wind.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Bloodline.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Bloodsoul.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\DataLibrary.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Enchantment.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Equipment.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Gem.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Outfit.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Pet.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\PetSkill.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Set.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\SoulCrystal.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Title.cs" />
+    <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary\Wing.cs" />
+    <Compile Include="PockieNinjaBuilder.Properties\Resources.cs" />
+    <Compile Include="PockieNinjaBuilder.Properties\Settings.cs" />
+    <Compile Include="PockieNinjaBuilder\AboutBox.cs" />
+    <Compile Include="PockieNinjaBuilder\BankaiForm.cs" />
+    <Compile Include="PockieNinjaBuilder\BloodlineForm.cs" />
+    <Compile Include="PockieNinjaBuilder\BloodsoulForm.cs" />
+    <Compile Include="PockieNinjaBuilder\ChineseForm.cs" />
+    <Compile Include="PockieNinjaBuilder\ColorSchemes.cs" />
+    <Compile Include="PockieNinjaBuilder\EquipForm.cs" />
+    <Compile Include="PockieNinjaBuilder\ExportForm.cs" />
+    <Compile Include="PockieNinjaBuilder\ListControl.cs" />
+    <Compile Include="PockieNinjaBuilder\ListControlItem.cs" />
+    <Compile Include="PockieNinjaBuilder\ListViewColumnSorter.cs" />
+    <Compile Include="PockieNinjaBuilder\MainForm.cs" />
+    <Compile Include="PockieNinjaBuilder\OutfitForm.cs" />
+    <Compile Include="PockieNinjaBuilder\PnpProfile.cs" />
+    <Compile Include="PockieNinjaBuilder\PnpProfileManager.cs" />
+    <Compile Include="PockieNinjaBuilder\Program.cs" />
+    <Compile Include="PockieNinjaBuilder\WingForm.cs" />
+    <Compile Include="PockieNinjaBuilder\ZanpakutoForm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PockieNinjaBuilder.AboutBox.resx" LogicalName="PockieNinjaBuilder.AboutBox.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.BankaiForm.resx" LogicalName="PockieNinjaBuilder.BankaiForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.BloodlineForm.resx" LogicalName="PockieNinjaBuilder.BloodlineForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.BloodsoulForm.resx" LogicalName="PockieNinjaBuilder.BloodsoulForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.EquipForm.resx" LogicalName="PockieNinjaBuilder.EquipForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.ExportForm.resx" LogicalName="PockieNinjaBuilder.ExportForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.MainForm.resx" LogicalName="PockieNinjaBuilder.MainForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.OutfitForm.resx" LogicalName="PockieNinjaBuilder.OutfitForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.Properties.Resources.resx" LogicalName="PockieNinjaBuilder.Properties.Resources.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.WingForm.resx" LogicalName="PockieNinjaBuilder.WingForm.resources" />
+    <EmbeddedResource Include="PockieNinjaBuilder.ZanpakutoForm.resx" LogicalName="PockieNinjaBuilder.ZanpakutoForm.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
