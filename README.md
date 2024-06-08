@@ -8,3 +8,6 @@ I will upload some modifications for the [Russian](http://ninjawars2.ru/) and [S
 - [x] Upload Sourse Code and Original Program
 - [ ] Scrap Pockie Ninja BETA1 Version :tada:
 - [ ] Russian Version :tada:
+
+> [!TIP]
+>My Version of A Guide In [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1hup3X_VJFtYc5zqrioXEoU4D3_YXT6dii0t390S12u4/) for [SPN Beta1](https://pockieninja.online/)
