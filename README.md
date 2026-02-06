@@ -4,11 +4,10 @@ The old PockieNinjaBuilder Unpacked to Make New Versions
 
 Works in VisualStudio 2022 (.Net 4.8).
 
-I will upload some modifications for the [Russian](http://ninjawars2.ru/) and [Scrap Pockie Ninja versions](https://pockieninja.online/) [Discord Of SNP](https://discord.gg/gCx5hCZPuv)
+I will upload some modifications for the [Russian](http://ninjawars2.ru/) and [Retro Pockie Ninja versions](https://pockieninja.online/) [Discord Of RNP](https://discord.com/invite/4dGpjp2Hcr)
 
 - [x] Upload Sourse Code and Original Program
-- [ ] Scrap Pockie Ninja BETA1 Version :tada:
-- [ ] Russian Version :tada:
+- [ ] Retro Pockie Ninja BETA3 Version :tada:
 
 > [!TIP]
->My Version of A Guide In [Google Spreadsheet](https://docs.google.com/spreadsheets/u/0/d/1hup3X_VJFtYc5zqrioXEoU4D3_YXT6dii0t390S12u4/htmlview?#) for [SPN Beta2](https://pockieninja.online/)
+>My Version of A Guide In [Google Spreadsheet](https://docs.google.com/spreadsheets/u/0/d/1hup3X_VJFtYc5zqrioXEoU4D3_YXT6dii0t390S12u4/htmlview?#) for [RPN Beta3](https://pockieninja.online/)
