@@ -40,7 +40,7 @@ namespace PockieNinjaBuilder
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(113, 26);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Version: 0.9 beta\r\nCreator: Psychomaster";
+			this.label1.Text = "Version: " + DataLibrary.version + " beta\nCreator: Psychomaster\nModded by RhoAias";
 			this.pictureBox2.Image = PockieNinjaBuilder.Properties.Resources.icon_512;
 			this.pictureBox2.Location = new System.Drawing.Point(228, 11);
 			this.pictureBox2.Name = "pictureBox2";
@@ -83,7 +83,7 @@ namespace PockieNinjaBuilder
 
 		private void AboutBox_Load(object sender, EventArgs e)
 		{
-			label1.Text = "Version: " + DataLibrary.version + " beta\nCreator: Psychomaster";
+			label1.Text = "Version: " + DataLibrary.version + " beta\nCreator: Psychomaster\nModded by RhoAias";
 		}
 	}
 }

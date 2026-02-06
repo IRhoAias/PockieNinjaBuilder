@@ -21,16 +21,26 @@ namespace PockieNinjaBuilder
 		{
 			this.main = main;
 			InitializeComponent();
+			pwField.KeyPress += PwField_KeyPress;
 		}
 
 		private void EnterMode_Click(object sender, EventArgs e)
 		{
-			if (pwField.Text == "enterchinesemode")
+			if (pwField.Text == "enterdevmode")
 			{
 				main.chinesemode = true;
 			}
 			main.loadChinese();
 			Close();
+		}
+
+		private void PwField_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			if (e.KeyChar == (char)Keys.Enter)
+			{
+				e.Handled = true;
+				EnterMode_Click(sender, e);
+			}
 		}
 
 		protected override void Dispose(bool disposing)

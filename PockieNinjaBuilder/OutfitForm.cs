@@ -341,11 +341,71 @@ namespace PockieNinjaBuilder
 						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
 						break;
 					case "Blue":
-						listViewItem.SubItems[0].ForeColor = Color.DarkBlue;
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(56, 142, 233);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Orange":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 165, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Shippuden":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(163, 53, 238);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Bankai":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(163, 53, 238);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Resurrected":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(163, 53, 238);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Espadas":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(163, 53, 238);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "S-Rank":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 100, 112);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Legends":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 100, 112);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Limited Legends":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 100, 112);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Lieutenants":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 0, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Akatsuki":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 0, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Heroes of the Villages":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 0, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Captains":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 0, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Kages":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 0, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Yonkos & Mugiwaras":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 0, 0);
+						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
+						break;
+					case "Mythics":
+						listViewItem.SubItems[0].ForeColor = Color.FromArgb(255, 215, 0);
 						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
 						break;
 					default:
-						listViewItem.SubItems[0].ForeColor = Color.DarkOrange;
+						listViewItem.SubItems[0].ForeColor = Color.DarkGray;
 						listViewItem.SubItems[0].Font = new Font(listViewItem.Font, FontStyle.Bold);
 						break;
 					}

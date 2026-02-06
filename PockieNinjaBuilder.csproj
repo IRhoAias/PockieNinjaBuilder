@@ -13,6 +13,7 @@
 	  <!-- <TargetFrameworkProfile>Client</TargetFrameworkProfile> -->
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -35,9 +36,6 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationIcon Include="app.ico" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PockieNinjaBuilder.PockieNinjaLibrary.Status\Agility.cs" />
@@ -129,6 +127,9 @@
     <EmbeddedResource Include="PockieNinjaBuilder.Properties.Resources.resx" LogicalName="PockieNinjaBuilder.Properties.Resources.resources" />
     <EmbeddedResource Include="PockieNinjaBuilder.WingForm.resx" LogicalName="PockieNinjaBuilder.WingForm.resources" />
     <EmbeddedResource Include="PockieNinjaBuilder.ZanpakutoForm.resx" LogicalName="PockieNinjaBuilder.ZanpakutoForm.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
