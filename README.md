@@ -11,3 +11,9 @@ I will upload some modifications for the [Russian](http://ninjawars2.ru/) and [R
 
 > [!TIP]
 >My Version of A Guide In [Google Spreadsheet](https://docs.google.com/spreadsheets/u/0/d/1hup3X_VJFtYc5zqrioXEoU4D3_YXT6dii0t390S12u4/htmlview?#) for [RPN Beta3](https://pockieninja.online/)
+
+
+> [!IMPORTANT]
+> To edit this Program you need [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+
+<img src="visualstudiodependencies.png" alt="Visual Studio Instalation Working">
